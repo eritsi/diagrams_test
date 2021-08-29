@@ -18,8 +18,9 @@ $ gp preview /workspace/diagrams_test/simple_diagram.png
 このあたりでブラウザチェック出来ないが、作成されたpng自体はファイルクリックで見えるので放置
 
 # サンプルコード実行結果のpng  
-GCPの例
-[img](./recipes/message_collecting.png)  
-AWSの例
-[img](./recipes/event_processing.png)  
-[img](./recipes/grouped_workers.png)  
+### GCPの例  
+<img src=./recipes/message_collecting.png height=600>  
+
+### AWSの例  
+<img src=./recipes/event_processing.png height=600>  
+<img src=./recipes/grouped_workers.png height=600>  
