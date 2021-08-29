@@ -6,7 +6,7 @@ tasks:
       pip install diagrams
       sudo apt-get update
       sudo apt install graphviz
-      sudo apt-get install xdg-utils --fix-missing
+      # sudo apt-get install xdg-utils --fix-missing
       gp sync-done installs
       echo "run $ python example.py"
     
@@ -15,6 +15,7 @@ tasks:
       gp sync-await installs
       dot -V
       xdg-open --help    openMode: split-right      
+    openMode: split-right
 
 # Ports to expose on workspace startup
 ports:
