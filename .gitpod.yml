@@ -4,11 +4,15 @@ tasks:
     init: |
       pip install graphviz
       pip install diagrams
+      sudo apt-get update
       sudo apt install graphviz
       sudo apt-get install xdg-utils --fix-missing
-      
+      gp sync-done installs
+      echo "run $ python example.py"
+    
   - name: install check
     init: |
+      gp sync-await installs
       dot -V
       xdg-open --help    openMode: split-right      
 
