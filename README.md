@@ -19,7 +19,7 @@ $ gp preview /workspace/diagrams_test/simple_diagram.png
 
 # サンプルコード実行結果のpng  
 GCPの例
-[img][./recipes/message_collecting.png]
+[img](./recipes/message_collecting.png)  
 AWSの例
-[img][./recipes/event_processing.png]
-[img][./recipes/grouped_workers.png]
+[img](./recipes/event_processing.png)  
+[img](./recipes/grouped_workers.png)  
