@@ -17,4 +17,9 @@ $ gp preview /workspace/diagrams_test/simple_diagram.png
 ```
 このあたりでブラウザチェック出来ないが、作成されたpng自体はファイルクリックで見えるので放置
 
-# サンプルコード実行結果のpng
+# サンプルコード実行結果のpng  
+GCPの例
+[img][./recipes/message_collecting.png]
+AWSの例
+[img][./recipes/event_processing.png]
+[img][./recipes/grouped_workers.png]
