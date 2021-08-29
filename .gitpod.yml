@@ -6,9 +6,11 @@ tasks:
       pip install diagrams
       sudo apt-get update
       sudo apt install graphviz
+      sudo apt install xdg-utils
       # sudo apt-get install xdg-utils --fix-missing
       gp sync-done installs
-      echo "run $ python example.py"
+      echo "installation finished"
+      echo "try to run as follows or test other recipes $ python example.py"
     
   - name: install check
     init: |
@@ -18,6 +20,6 @@ tasks:
     openMode: split-right
 
 # Ports to expose on workspace startup
-ports:
-  - port: 8080
-    onOpen: open-preview
+# ports:
+#   - port: 8080
+#     onOpen: open-preview
